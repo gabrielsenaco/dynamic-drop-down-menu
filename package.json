@@ -1,6 +1,6 @@
 {
   "name": "dynamic-drop-down-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create dropdown menus and listen to static (HTML) and dynamic dropdown menus",
    "keywords": [
     "dropdown",
