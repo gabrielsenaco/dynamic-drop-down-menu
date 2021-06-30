@@ -1,0 +1,26 @@
+{
+  "name": "dynamic-drop-down-menu",
+  "version": "1.0.0",
+  "description": "Create dropdown menus and listen to static (HTML) and dynamic dropdown menus",
+   "keywords": [
+    "dropdown",
+    "dynamic dropdown",
+    "static dropdown",
+    "html dropdown",
+    "javascript dropdown"
+  ],
+  "main": "js/dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabesenacom/dynamic-drop-down-menu.git"
+  },
+  "author": "Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabesenacom/dynamic-drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/gabesenacom/dynamic-drop-down-menu#readme"
+}

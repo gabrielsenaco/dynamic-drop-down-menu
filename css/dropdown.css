@@ -1,0 +1,76 @@
+:root {
+  --drop-down-min-width: 15.625rem;
+  --drop-down-max-width: 15.625rem;
+}
+
+.drop-down,
+.drop-down * {
+  box-sizing: border-box;
+}
+
+.drop-down,
+.drop-down-button,
+.drop-down-content {
+  max-width: var(--drop-down-max-width);
+}
+
+.drop-down-button,
+.drop-down-content {
+  min-width: var(--drop-down-min-width);
+}
+
+.drop-down-button,
+.drop-down-content {
+  padding: 0;
+  margin: 0;
+  border: 0.0625rem solid black;
+}
+
+.drop-down-button {
+  display: block;
+  border-radius: none;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 0.3rem 0;
+}
+
+.drop-down-button,
+.drop-down-item {
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.drop-down-content {
+  list-style: none;
+  display: inline-block;
+  z-index: 100;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-in-out;
+}
+
+.drop-down.visible .drop-down-content {
+  opacity: 1;
+  pointer-events: inherit;
+}
+
+.drop-down-item {
+  padding: 0.625rem;
+  background-color: red;
+  border-bottom: 0.0625rem solid black;
+  background-color: #e9ecef;
+}
+
+.drop-down-item:last-child,
+.drop-down-content {
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+
+.drop-down-item:last-child {
+  border-bottom: none;
+}
+
+.drop-down-item:hover {
+  background-color: #f8f9fa;
+}
