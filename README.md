@@ -1,6 +1,13 @@
 # Dynamic Dropdown menu
 Create dropdown menus and listen to static (HTML) and dynamic dropdown menus
 
+## Table of Contents
+- [Install](#install)
+- [Usage](#usage)
+- [Components](#components)
+  - [Dropdown components](#dropdown-components)
+- [HTML Dropdown](#html-dropdown)
+
 ## Install
 ```bash
 npm i dynamic-drop-down-menu
